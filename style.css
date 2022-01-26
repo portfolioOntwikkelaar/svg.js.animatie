@@ -1,0 +1,19 @@
+.OLMC {
+  transform-origin: 50% 50% 0px;
+  animation-name: ImgRotate3dAnimation;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+body {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to left top, #93818b, #bd8893, #e49089, #fca072, #ffbb55, #ffbb4a, #ffbb3d, #ffbb2f, #ff954a, #ff6c79, #ff52b4, #fb5ff1);
+}
+
+@keyframes ImgRotate3dAnimation {
+  50% { transform: rotate3d(2, 0, 1, 180deg);  }
+  100% { transform: rotate3d(2, 0, 1, 360deg); }
+  
+}
