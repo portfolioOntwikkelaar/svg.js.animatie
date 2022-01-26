@@ -1,0 +1,23 @@
+body {
+  background-image: linear-gradient(to right, #442fc4, #4a41c5, #5351c5, #5d60c3, #686ec1, #8171c0, #9675be, #a87abc, #ca73b0, #e56e9b, #f66f7f, #fb795f);
+  
+}
+svg {
+  opacity: 80%;
+}
+.octagon {
+  border-radius: 30px;
+  clip-path: polygon(28% 11%, 36% 35%, 55% 35%, 40% 49%, 45% 77%, 26% 57%, 8% 76%, 16% 50%, 0 36%, 18% 35%);
+  
+}
+/* circle {
+  box-shadow:
+      0 0 0 10px hsl(0, 0%, 80%),
+      0 0 0 15px hsl(0, 0%, 90%);
+} */
+/* circle {
+  box-shadow: 50px 70px 50px rgb(38, 38, 38);
+} */
+/* .re {
+  z-index: 999;
+} */
