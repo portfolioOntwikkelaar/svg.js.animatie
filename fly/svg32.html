@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<meta charset="UTF-8"> 
+		<title> the SVG cursor </title> 
+	</head>
+
+<body>
+	<svg width="900" height="650">
+		
+		<circle id = "circle1" 
+				cx="-250" 
+				cy="625" 
+				r="10" 
+				fill="orange"/>
+	</svg>
+	<!-- <div class="intro"></div> -->
+
+	<script>
+		let animationObject = document.getElementById("circle1");
+		
+		window.addEventListener('mousemove', function(e) {
+			animationObject.setAttribute("cx", e.pageX);
+			animationObject.setAttribute("cy", e.pageY);
+		}, false);
+	</script>
+</body>
+
+</html>
+
